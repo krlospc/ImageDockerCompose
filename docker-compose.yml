@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  webk:
+    image: krlos-web-ubuntu
+    build: .
+    container_name: krlos-web
+    ports:
+      - "8099:80"
+    volumes:
+      - ./index.html:/var/www/html/index.html
