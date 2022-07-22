@@ -18,14 +18,14 @@ in the seccion volumes, you can try it with a template like:
 ## Sample Execution & Output
 
 run the next command into the terminal
-	* docker compose up -d --build
+* docker compose up -d --build
 
-we can use the flag --build in the cases to create a image through a docker compose
+	we can use the flag --build in the cases to create a image through a docker compose
 
 check if the service is running with
-	* docker compose ps
+* docker compose ps
 checkt the new image was created with
-	* docker images
+* docker images
 
 output it will be displayed: on the browser http://localhost:8099/
 
